@@ -5,7 +5,7 @@ import (
 )
 
 type Cache struct {
-	maxBytes  int64
+	maxBytes  int64 //max cache
 	nbytes    int64
 	ll        *list.List
 	cache     map[string]*list.Element
