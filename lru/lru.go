@@ -6,7 +6,7 @@ import (
 
 type Cache struct {
 	maxBytes  int64 //max cache
-	nbytes    int64
+	nbytes    int64 //allow cache
 	ll        *list.List
 	cache     map[string]*list.Element
 	onEvicted func(key string, value Value)
