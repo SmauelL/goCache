@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de735031-7927-4096-ab1a-5d87cce555d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byteview.go" beforeDir="false" afterPath="$PROJECT_DIR$/byteview.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunManager">
     <configuration name="TestRemoveOldest in lru_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -64,6 +65,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="550" y="304" key="EditFileWatcherDialog" timestamp="1604559814704">
+      <screen x="0" y="23" width="1680" height="966" />
+    </state>
+    <state x="550" y="304" key="EditFileWatcherDialog/0.23.1680.966/64.-1057.1920.1057@0.23.1680.966" timestamp="1604559814704" />
     <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1604303686654">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -80,9 +85,10 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.973/64.-1057.1920.1057@0.23.1680.973" timestamp="1604303686654" />
-    <state x="405" y="159" key="SettingsEditor" timestamp="1604302590036">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state x="405" y="158" key="SettingsEditor" timestamp="1604559817435">
+      <screen x="0" y="23" width="1680" height="966" />
     </state>
+    <state x="405" y="158" key="SettingsEditor/0.23.1680.966/64.-1057.1920.1057@0.23.1680.966" timestamp="1604559817435" />
     <state x="405" y="159" key="SettingsEditor/0.23.1680.973/64.-1057.1920.1057@0.23.1680.973" timestamp="1604302590036" />
   </component>
 </project>
