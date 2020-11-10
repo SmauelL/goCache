@@ -25,6 +25,7 @@ func (p *HTTPPool) Log(format string, v ...interface{}) {
 	log.Printf("[Server %s] %s", p.self, fmt.Sprintf(format, v...))
 }
 
+// ServerHTTP handle all http request
 func (p *HTTPPool) ServerHTTP(w http.ResponseWriter, r *http.Request) {
 	if !strings.HasPrefix(r.URL.Path, p.basePath) {
 		panic("HTTPPool serving unexpected path: " + r.URL.Path)
@@ -48,7 +49,7 @@ func (p *HTTPPool) ServerHTTP(w http.ResponseWriter, r *http.Request) {
 
 	view, err := group.Get(key)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
+		http.Error(w,err.Error(),http.StatusInternalServerError)
 		return
 	}
 
